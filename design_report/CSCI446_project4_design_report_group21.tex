@@ -84,7 +84,17 @@
 	\section{The Racetrack Problem}
 	\section{Reinforcement Learning Algorithms}
 		\subsection{Value Iteration}
-		\subsection{Q-Learning}
+	\section{Q-Learning}
+		\subsection{Description}
+			\textit{Q-learning} is a model-free reinforcement learning method for determining optimal action-selection policies \cite{ai}. An agent using this method leverages a quantity known as the $Q$-value to derive the optimal action $a$ for each state $s$. The $Q$-value, $Q(s,a)$ describes the expected utility for every action in every state within the environment and is learned by the agent using temporal difference learning.
+			An expression to calculate the $Q$-value is given by \cite{ai} as
+			\begin{equation}
+				Q(s,a) \leftarrow Q(s,a) + \alpha \left[ R(s) + \gamma \max_{a'} Q(s',a') - Q(s,a) \right]
+				\label{ql}
+			\end{equation}
+			where $a$ is the action that was executed in state $s$ that resulted in state $s'$ and $R(s)$ is the reward function. The constants $\alpha$ and $\gamma$ are known respectively as the learning rate and the discount factor. Equation \ref{ql} is used as an update rule to adjust the value of $Q(s,a)$ for each action-state pair in every time trial undertaken by the agent. Using this simple update rule and randomly initialized $Q$-values for every action-state, an agent can learn how to navigate an environment.
+		\subsection{Design Implications}
+			Since the racetracks are reasonably small, we can afford to sore the table of $Q$-values in memory. We will base our $Q$-learning agent off of the function \textsc{Q-Learning-Agent} provided by \cite{ai}. To ease the training time, we will incrementally train the $Q$-learning agent by beginning training close to the finish line, and then increasing the distance as the agent learns each section.
 	\section{Software Design}
 	For this project we will be using an environment and agent model similar to the wumpus world. Instead of a board we will have a \texttt{Track} class that reads in the different tracks from a text file. To run the experiments we will have an \texttt{Environment Engine} for each \texttt{Track} and \texttt{Agent} combo. 
 	
@@ -95,6 +105,7 @@
 		\caption{UML of our design}
 	\end{figure}
 	\section{Experiment Design}
+		 For each agent we will generate learning curves that describe the number of steps required to reach the goal state vs. the number of training iterations. We will also track the number of times each agent runs into a wall and needs to be restarted. Each agent will be trained at least 10 times to determine reliable learning curves.
 	\section{Summary}
 
 	%\bibliographystyle{apj}
