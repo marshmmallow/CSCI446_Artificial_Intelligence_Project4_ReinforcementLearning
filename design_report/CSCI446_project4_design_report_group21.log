@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.11.8)  1 DEC 2016 10:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.11.8)  1 DEC 2016 22:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -580,46 +580,54 @@ LaTeX Font Warning: Font shape `T1/cmr/m/n' in size <24> not available
 LaTeX Font Warning: Font shape `T1/cmr/bx/n' in size <24> not available
 (Font)              size <24.88> substituted on input line 80.
 
-No file CSCI446_project4_design_report_group21.bbl.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 95.
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 95.
+(./CSCI446_project4_design_report_group21.bbl)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 106.
+ [2]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 106.
 
 (./CSCI446_project4_design_report_group21.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 95.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 95.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 106.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 106.
 Package rerunfilecheck Info: File `CSCI446_project4_design_report_group21.out' 
 has not changed.
-(rerunfilecheck)             Checksum: ED9F099BE86D6885BC4E2F6AE2BBC770;438.
+(rerunfilecheck)             Checksum: 61FB68698126CCB177A54099A534717C;553.
 
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.88pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 95.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 106.
  ) 
 Here is how much of TeX's memory you used:
- 9919 strings out of 493029
- 151304 string characters out of 6136234
- 382895 words of memory out of 5000000
- 13304 multiletter control sequences out of 15000+600000
- 14830 words of font info for 49 fonts, out of 8000000 for 9000
+ 9966 strings out of 493029
+ 151887 string characters out of 6136234
+ 384979 words of memory out of 5000000
+ 13314 multiletter control sequences out of 15000+600000
+ 17227 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,12n,43p,327b,338s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,10n,43p,578b,340s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/
-type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-supe
-r/sfcc1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1440.pfb></usr
-/share/texmf/fonts/type1/public/cm-super/sfcc1728.pfb></usr/share/texmf/fonts/t
-ype1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super
-/sfrm1200.pfb>
-Output written on CSCI446_project4_design_report_group21.pdf (1 page, 81144 byt
-es).
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmsy7.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pfb></usr
+/share/texmf/fonts/type1/public/cm-super/sfcc1000.pfb></usr/share/texmf/fonts/t
+ype1/public/cm-super/sfcc1200.pfb></usr/share/texmf/fonts/type1/public/cm-super
+/sfcc1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1728.pfb></usr/
+share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/ty
+pe1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/
+sfti1000.pfb>
+Output written on CSCI446_project4_design_report_group21.pdf (2 pages, 167043 b
+ytes).
 PDF statistics:
- 77 PDF objects out of 1000 (max. 8388607)
- 66 compressed objects within 1 object stream
- 10 named destinations out of 1000 (max. 500000)
- 16961 words of extra memory for PDF output out of 17280 (max. 10000000)
+ 129 PDF objects out of 1000 (max. 8388607)
+ 108 compressed objects within 2 object streams
+ 15 named destinations out of 1000 (max. 500000)
+ 21073 words of extra memory for PDF output out of 24883 (max. 10000000)
 
